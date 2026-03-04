@@ -8,7 +8,7 @@ on:
 
 # Setting up variables so we don't have to type them over and over
 env:
-  PROJECT_ID: your-gcp-project-id-here   # ⚠️ CHANGE THIS TO YOUR ACTUAL GCP PROJECT ID ⚠️
+  PROJECT_ID: cts12-sfaheeal   # ⚠️ CHANGE THIS TO YOUR ACTUAL GCP PROJECT ID ⚠️
   REGION: asia-southeast1 (Singapore)                   # Matches the Artifact Registry location we chose
   REPO_NAME: devops-repo                 # The name of your Artifact Registry
   SERVICE_NAME: my-flask-app             # The name your app will have in Cloud Run
